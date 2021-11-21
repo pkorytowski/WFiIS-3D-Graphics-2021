@@ -1,0 +1,8 @@
+{
+  "name": "WFiIS-3D-Graphics-2021",
+  "version": "1.0.0",
+  "dependencies": {
+    "parcel": "^2.0.1",
+    "three": "^0.134.0"
+  }
+}

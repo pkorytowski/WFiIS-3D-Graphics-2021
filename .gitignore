@@ -1,0 +1,5 @@
+node_modules/*
+.idea/*
+.parcel-cache/*
+dist/*
+WFiIS-3D-Graphics-2021.iml
