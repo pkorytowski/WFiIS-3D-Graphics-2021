@@ -5,13 +5,16 @@
     "parcel": "^2.0.1",
     "three": "^0.134.0"
   },
+  "homepage": "https://pkorytowski.github.io/box/",
   "scripts": {
     "start": "parcel ./index.html",
     "prebuild-dev": "shx rm -rf dist/*",
     "build-dev": "parcel build ./index.html --no-minify --public-url ./",
     "prebuild": "shx rm -rf dist/*",
     "build": "parcel build ./index.html --public-url ./",
-    "push-gh-pages": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose"
+    "push-gh-pages": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose",
+    "predeploy": "parcel build ./src/index.html --public-url https://pkorytowski.github.io/box/",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "sharp": "^0.29.3",
