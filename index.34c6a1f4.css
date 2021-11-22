@@ -1,0 +1,2 @@
+body{color:#fff;cursor:pointer;margin:0}.hidden{visibility:hidden}#menu,#result{align-items:center;background-color:hsla(0,0%,8%,.75);display:flex;flex-direction:column;height:100%;justify-content:center;position:absolute;width:100%}#score{font-size:22pt;font-weight:700}#current-score{font-size:3em;right:30px}#current-score,#timer{color:#fff;font-weight:700;position:absolute;top:30px}#timer{font-size:1em;left:30px}
+/*# sourceMappingURL=index.34c6a1f4.css.map */
